@@ -1,0 +1,41 @@
+header h1 {
+	text-align: center;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.information h3 {
+	margin: 10px;
+}
+
+span {
+	color: rgb(180, 174, 174);
+	margin-right: 10px;
+}
+
+.coins {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 32px;
+}
+
+.coin {
+	text-align: center;
+	border: 2px solid white;
+	width: 100%;
+}
+
+.coin h5 {
+	text-align: left;
+	padding-top: 10px;
+	margin: 2px;
+	margin-left: 10px;
+}
