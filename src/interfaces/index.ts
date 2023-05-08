@@ -12,14 +12,6 @@ export interface IInformation {
 	date: string;
 }
 
-export interface ICoinResponse {
-	codigo: string;
-	nombre: string;
-	unidad_medida: string;
-	fecha: string;
-	valor: number;
-}
-
 export interface IResponse {
 	version: string;
 	author: string;
