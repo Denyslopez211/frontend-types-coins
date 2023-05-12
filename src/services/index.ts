@@ -5,7 +5,6 @@ export const coinsServices = async (): Promise<IResponse> => {
 	try {
 		const response = await fetch(import.meta.env.VITE_URL);
 		const json = await response.json();
-		console.log(json);
 		const { version, date, author, coins }: IResponse = json;
 		return {
 			version,
