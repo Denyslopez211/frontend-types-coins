@@ -12,7 +12,7 @@
 
 ## Test it in Production:
 
-In construction.
+Open [https://main.d3t57klxdpk85z.amplifyapp.com/](https://main.d3t57klxdpk85z.amplifyapp.com/).
 
 ## Run local
 
